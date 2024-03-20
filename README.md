@@ -4,6 +4,7 @@ This project, completed as my final assignment for an Introduction to MATLAB cou
 
 ## Menu
 
+```
 1-Study Menu
 	A-Learning alphabet 
 	B-Learning vocabulary
@@ -17,6 +18,8 @@ This project, completed as my final assignment for an Introduction to MATLAB cou
 		a-Number of Errors per Letter
 		b-Number of Errors per Vocabulary
 		c-Log of Number of Errors for each example per trials
+		
+```
 		
 ## Images
 

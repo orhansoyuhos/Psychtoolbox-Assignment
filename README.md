@@ -1,4 +1,4 @@
-# English for Kids
+# English for Kids | Psychtoolbox
 
 This project, completed as my final assignment for an Introduction to MATLAB course during my master's degree, involves creating an interactive program to teach English to kids using Psychtoolbox. The program is split into two main parts: the first part focuses on learning, with activities for getting to know the alphabet, building vocabulary, and practicing writing. The second part includes exercises to reinforce the alphabet and vocabulary knowledge, spot and correct mistakes, and track progress through the number of errors made in letters, vocabulary, and individual examples over different tries.
 

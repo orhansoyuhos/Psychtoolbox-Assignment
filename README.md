@@ -1,24 +1,46 @@
-# Psychtoolbox-Assignment
+# English for Kids
 
-This project, completed as my final assignment for an Introduction to MATLAB course during my master’s degree, involves creating an interactive program to teach English to kids using Psychtoolbox. The program is split into two main parts: the first part focuses on learning, with activities for getting to know the alphabet, building vocabulary, and practicing writing. The second part includes exercises to reinforce the alphabet and vocabulary knowledge, spot and correct mistakes, and track progress through the number of errors made in letters, vocabulary, and individual examples over different tries.
+This project, completed as my final assignment for an Introduction to MATLAB course during my master's degree, involves creating an interactive program to teach English to kids using Psychtoolbox. The program is split into two main parts: the first part focuses on learning, with activities for getting to know the alphabet, building vocabulary, and practicing writing. The second part includes exercises to reinforce the alphabet and vocabulary knowledge, spot and correct mistakes, and track progress through the number of errors made in letters, vocabulary, and individual examples over different tries.
+
+## Prerequisites
+
+- MATLAB
+- [Psychtoolbox](http://psychtoolbox.org/)
+
+## Setup
+
+Before running, open `ENGLISH_FOR_KIDS_run.m` and set the following variables to match your system:
+
+- `main_dir` — path to the folder containing all project files
+- `deviceid` — your speaker device number (line 44)
+- `my_device_right_click` — your mouse right-click device number (line 34)
+
+## How to Run
+
+Run `ENGLISH_FOR_KIDS_run.m` in MATLAB. The other `.m` files are supporting modules called by it.
+
+## Notes
+
+- `number_of_errors.xls` contains previous trial data — it has not been cleared so that progress graphs are available out of the box.
+- If you want to clear the data, **do not delete the first column** (it contains the row/column names required by the program).
 
 ## Menu
 
 ```
 1-Study Menu
-	A-Learning alphabet 
-	B-Learning vocabulary
-	C-Trying writing
+    A-Learning alphabet 
+    B-Learning vocabulary
+    C-Trying writing
 
 2-Exercise Menu	
-	A-Practising alphabet
-	B-Practising vocabulary
-	C-Focusing errors
-	D-Visualizing progress
-		a-Number of Errors per Letter
-		b-Number of Errors per Vocabulary
-		c-Log of Number of Errors for each example per trials
-		
+    A-Practising alphabet
+    B-Practising vocabulary
+    C-Focusing errors
+    D-Visualizing progress
+        a-Number of Errors per Letter
+        b-Number of Errors per Vocabulary
+        c-Log of Number of Errors for each example per trials
+        
 ```
 		
 ## Images
